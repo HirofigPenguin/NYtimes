@@ -43,10 +43,6 @@ nav span {
        
 }
 
-.image-content{
-	border: 1px solid black;
-}
-
 .content{
 	display: flex;
     width: auto;
@@ -63,7 +59,63 @@ nav span {
 	 flex-direction: column;
 }
 
+.image-content{
+	position:relative;
+	border: 1px solid black;
+    height:300px;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
 
+.image-content span {
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   top:90px;
+   position:relative;
+}
+
+
+.stories{
+ border: 1px solid black;
+
+
+}
+
+
+.image-contentone{
+	position:relative;
+	border: 1px solid black;
+	height:300px;
+	display:block;
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+}
+
+.image-contentone span{
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   position:relative;
+	}
+
+.textcontent{
+	position:absolute;
+}
+
+.popculture-image-content{
+	height:300px;
+	background-image:url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+}
+
+.popculture-image-content span{
+   font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   position:relative;
+   text-align:center;
+	}
 
 .columnmedium{
 	width:300px;
@@ -72,6 +124,35 @@ nav span {
 	 flex-direction: column;
 }
 
+.columnmedium h2{
+	font-size:25px;
+}
+
+
+
+.storynew {
+	border: 1px solid black;
+	font-size: 20px;
+	
+}
+
+.storytext span{
+font-size:28px;
+font-weight: bold;
+}
+
+.cats {
+	  font-family: Georgia;
+   font-weight: bold;
+   font-size: 30px;
+   color: white;
+   position:relative;
+   text-align:center;
+    height:300px;
+	background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png)
+}
+
+
 .columnsmall{
 	width:240px;
 	display:flex;
@@ -79,17 +160,11 @@ nav span {
 	  flex-direction: column;
 }
 
-
-.stories{
- border: 1px solid black;
-
+.cookie {
+border: 1px solid black;
+width:100%;
 }
 
-.story{
-	 border: 1px solid black;
-}
-
-
-.cancelled-imagecontent{
+.cookie h2 {
 	border: 1px solid black;
 }
